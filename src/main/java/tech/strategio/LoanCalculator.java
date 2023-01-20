@@ -7,13 +7,18 @@ public class LoanCalculator {
     /**
      * TODO: finish out this JavaDoc comment block.
      * FIXME: WHAT DOES THIS METHOD DO?
-     * 
-     * @param ???
-     * @return ???
+     * This method takes user's input of initial loan amount and calculates
+     * the remaining amount that user still owes in 3 months
+     *
+     * @param  amount initial loan amount
+     * @return remaining loan amount after 3 months
      */
+
+
     static int getRemainingAmountIn3Months(int amount) {
         // TODO: Rewrite this method
-        return -1;
+        int remainingAmount = (int) (amount*0.9*0.9*0.9);
+        return remainingAmount;
     }
 
     public static void main(String[] args) {
